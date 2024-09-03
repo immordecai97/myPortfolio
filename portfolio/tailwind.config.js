@@ -6,6 +6,15 @@ export default {
   ],
   theme: {
     extend: {},
+    container: {
+      center: true,
+    },
+    corePlugins: {
+      aspectRatio: false,
+    },
+    plugins: [
+      require('@tailwindcss/aspect-ratio'),
+    ],
   },
   plugins: [],
 }
