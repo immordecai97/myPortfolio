@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ["Nunito", "sans-serif"],
+    },
     extend: {},
     container: {
       center: true,
