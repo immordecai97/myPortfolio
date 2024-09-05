@@ -9,13 +9,12 @@ export default function Education() {
                                 {education.map((item, index) => (
                                         <li className='border border-white' key={index}>
                                                 <div className='flex justify-between'>
-                                                        <h3 className='inline-flex gap-x-4'>
+                                                        <h3 className='inline-flex gap-x-4 font-bold'>
                                                                 <span>{item.institution}</span>
                                                         </h3>
                                                         <p className='text-[.8rem] bg-stone-700 rounded py-[.3rem] px-[.5rem] text-amber-50'>{getYear(item.startDate)} - {getYear(item.endDate)}</p>
                                                 </div>
                                                 <h4>{item.area}</h4>
-                                                <p>{item.summary}</p>
                                         </li>
                                 ))}
                         </ul>

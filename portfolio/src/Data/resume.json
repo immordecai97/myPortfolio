@@ -1,21 +1,42 @@
 {
         "basics": {
                 "name": "Carlos Marquina",
-                "label": "Programmer",
+                "label": "Web developer",
                 "image": "https://i.scdn.co/image/ab67616d00001e023ab75830fe9cd71de0725302",
-                "email": "john@gmail.com",
-                "phone": "(912) 555-4321",
-                "url": "https://johndoe.com",
+                "email": "carlosscripto@gmail.com",
+                "phone": "+573114459491",
+                "url": "https://cxrlos.dev",
                 "summary": "A summary of John Doe…",
                 "location": {
-                        "address": "2712 Broadway St",
-                        "postalCode": "CA 94115",
-                        "city": "San Francisco",
-                        "countryCode": "US",
-                        "country": "United States",
-                        "region": "California"
+                        "address": "",
+                        "postalCode": "",
+                        "city": "Bogotá",
+                        "countryCode": "CO",
+                        "country": "Colombia",
+                        "region": "Bogotá DC"
                 },
                 "profiles": [
+                        {
+                                "network": "Email",
+                                "mail": "carlosscripto@gmail.com",
+                                "username": "Cxrlos",
+                                "url": "https://twitter.com/john"
+                        },
+                        {
+                                "network": "Whatsapp",
+                                "username": "Carlos Marquina",
+                                "url": "https://twitter.com/john"
+                        },
+                        {
+                                "network": "Github",
+                                "username": "Carlos Marquina",
+                                "url": "https://twitter.com/john"
+                        },
+                        {
+                                "network": "LinkedIn",
+                                "username": "Carlos Marquina",
+                                "url": "https://twitter.com/john"
+                        },
                         {
                                 "network": "Twitter",
                                 "username": "john",
@@ -25,48 +46,24 @@
         },
         "work": [
                 {
-                        "name": "Company",
-                        "position": "President",
+                        "name": "La Fábrica S.R.L",
+                        "position": "Freelance",
                         "url": "https://company.com",
                         "startDate": "2013-01-01",
                         "endDate": "2014-01-01",
-                        "summary": "Description…",
+                        "summary": "Desarrollando una aplicación para la gestión de inventario, que maneja el ingreso, egreso y despacho de productos manufacturados desde el almacén de la empresa hacia sus sucursales",
                         "highlights": [
                                 "Started the company"
                         ],
-                        "modality": "Remote"
-                },
-                {
-                        "name": "Company",
-                        "position": "President",
-                        "url": "https://company.com",
-                        "startDate": "2013-01-01",
-                        "endDate": "2014-01-01",
-                        "summary": "Description…",
-                        "highlights": [
-                                "Started the company"
-                        ],
-                        "modality": "Remote"
+                        "modality": "Remoto"
                 }
-        ],
-        "volunteer": [
-                {
-                        "organization": "Organization",
-                        "position": "Volunteer",
-                        "url": "https://organization.com/",
-                        "startDate": "2012-01-01",
-                        "endDate": "2013-01-01",
-                        "summary": "Description…",
-                        "highlights": [
-                                "Awarded 'Volunteer of the Month'"
-                        ]
-                }
+               
         ],
         "education": [
                 {
-                        "institution": "University",
-                        "url": "https://institution.com/",
-                        "area": "Software Development",
+                        "institution": "Da Vinci Escuela Multimedial",
+                        "url": "https://davinci.edu.ar/",
+                        "area": "Diseño y programación web",
                         "studyType": "Bachelor",
                         "startDate": "2011-01-01",
                         "endDate": "2013-01-01",
@@ -74,14 +71,6 @@
                         "courses": [
                                 "DB1101 - Basic SQL"
                         ]
-                }
-        ],
-        "awards": [
-                {
-                        "title": "Award",
-                        "date": "2014-11-01",
-                        "awarder": "Company",
-                        "summary": "There is no spoon."
                 }
         ],
         "certificates": [
@@ -92,72 +81,81 @@
                         "url": "https://certificate.com"
                 }
         ],
-        "publications": [
-                {
-                        "name": "Publication",
-                        "publisher": "Company",
-                        "releaseDate": "2014-10-01",
-                        "url": "https://publication.com",
-                        "summary": "Description…"
-                }
-        ],
         "skills": [
                 {
-                        "name": "Web Development",
-                        "level": "Master",
-                        "keywords": [
-                                "HTML",
-                                "CSS",
-                                "JavaScript"
-                        ]
-                },
-                {
                         "name": "JavaScript",
-                        "level": "Master",
-                        "keywords": [
-                                "HTML",
-                                "CSS",
-                                "JavaScript"
-                        ]
+                        "level": "Junior"
                 },
                 {
-                        "name": "TypeScript",
-                        "level": "Master",
-                        "keywords": [
-                                "HTML",
-                                "CSS",
-                                "JavaScript"
-                        ]
+                        "name": "React.js",
+                        "level": "Junior"
+                },
+                {
+                        "name": "Vue.js",
+                        "level": "Junior"
                 },
                 {
                         "name": "Node.js",
-                        "level": "Master",
-                        "keywords": [
-                                "HTML",
-                                "CSS",
-                                "JavaScript"
-                        ]
+                        "level": "Junior"
+                },
+                {
+                        "name": "Express.js",
+                        "level": "Junior"
+                },
+                {
+                        "name": "API REST",
+                        "level": "Junior"
+                },
+                {
+                        "name": "MongoDB",
+                        "level": "Junior"
+                },
+                {
+                        "name": "PHP",
+                        "level": "Junior"
+                },
+                {
+                        "name": "Laravel",
+                        "level": "Junior"
+                },
+                {
+                        "name": "MySQL",
+                        "level": "Junior"
+                },
+                {
+                        "name": "HTML5",
+                        "level": "Junior"
+                },
+                {
+                        "name": "CSS3",
+                        "level": "Junior"
+                },
+                {
+                        "name": "TailwindCSS",
+                        "level": "Junior"
+                },
+                {
+                        "name": "Bootstrap",
+                        "level": "Junior"
+                },
+                {
+                        "name": "Illustrator",
+                        "level": "Junior"
+                },
+                {
+                        "name": "Git",
+                        "level": "Junior"
+                },
+                {
+                        "name": "Github",
+                        "level": "Junior"
                 }
+                
         ],
         "languages": [
                 {
                         "language": "English",
                         "fluency": "Native speaker"
-                }
-        ],
-        "interests": [
-                {
-                        "name": "Wildlife",
-                        "keywords": [
-                                "Ferrets",
-                                "Unicorns"
-                        ]
-                }
-        ],
-        "references": [
-                {
-                        "name": "Jane Doe",
-                        "reference": "Reference…"
                 }
         ],
         "projects": [

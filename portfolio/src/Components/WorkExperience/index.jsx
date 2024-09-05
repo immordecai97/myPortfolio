@@ -9,13 +9,16 @@ export default function WorkExperience() {
                                 {work.map((item, index) => (
                                         <li className='border border-white' key={index}>
                                                 <div className='flex justify-between'>
-                                                        <h3 className='inline-flex gap-x-4'>
-                                                                <span>{item.name}</span>
-                                                                <span className='text-[.8rem] bg-stone-700 rounded py-[.3rem] px-[.5rem] text-amber-50'>{item.modality}</span>
-                                                        </h3>
+                                                        <div className='flex items-center gap-x-6'>
+                                                                <h3 className='font-bold'>{item.name}</h3>
+                                                                <ul className='inline-flex items-center gap-x-2'>
+                                                                        <li className='text-[.6rem] bg-stone-700 rounded py-[.3rem] px-[.5rem] text-amber-50'>{item?.position}</li>
+                                                                        <li className='text-[.6rem] bg-stone-700 rounded py-[.3rem] px-[.5rem] text-amber-50'>{item?.modality}</li>
+                                                                </ul>
+
+                                                        </div>
                                                         <p className='text-[.8rem] bg-stone-700 rounded py-[.3rem] px-[.5rem] text-amber-50'>{getMonthYear(item.startDate)} - {getMonthYear(item.endDate)}</p>
                                                 </div>
-                                                <h4>{item.position}</h4>
                                                 <p>{item.summary}</p>
                                         </li>
                                 ))}

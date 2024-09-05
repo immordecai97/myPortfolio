@@ -8,7 +8,6 @@ export default {
     fontFamily: {
       sans: ["Nunito", "sans-serif"],
     },
-    extend: {},
     container: {
       center: true,
     },
@@ -18,7 +17,17 @@ export default {
     plugins: [
       require('@tailwindcss/aspect-ratio'),
     ],
+    extend: {
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        },
+      },
+    }
   },
-  plugins: [],
 }
 
