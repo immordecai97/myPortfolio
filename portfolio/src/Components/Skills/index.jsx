@@ -3,7 +3,7 @@ import { skills } from '@Data/resume.json';
 export default function Skills() {
         return (
                 <div className='flex flex-col gap-3'>
-                        <h2 className='text-xl font-bold'>Skills</h2>
+                        <h2 className='text-xl font-bold'>Otros conocimientos</h2>
                         <ul className='flex flex-wrap gap-3'>
                                 {
                                         skills.map((skill, index) => (

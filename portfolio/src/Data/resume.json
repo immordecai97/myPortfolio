@@ -1,46 +1,47 @@
 {
         "basics": {
                 "name": "Carlos Marquina",
-                "label": "Web developer",
-                "image": "https://i.scdn.co/image/ab67616d00001e023ab75830fe9cd71de0725302",
+                "label": "Desarrollador Web",
+                "image": "/src/Assets/Images/CarlosMarquina.jpg",
                 "email": "carlosscripto@gmail.com",
                 "phone": "+573114459491",
                 "url": "https://cxrlos.dev",
-                "summary": "A summary of John Doe…",
+                "seniority": "Trainee",
+                "about": "Apasionado por la tecnología y la programación, disfruto aprendiendo y enfrentando desafíos complejos. Mi objetivo es crecer profesionalmente y contribuir a proyectos innovadores",
                 "location": {
                         "address": "",
                         "postalCode": "",
                         "city": "Bogotá",
                         "countryCode": "CO",
                         "country": "Colombia",
-                        "region": "Bogotá DC"
+                        "region": "Bogotá DC",
+                        "url": "https://www.google.com/maps/place/Bogot%C3%A1/@4.6482784,-74.2726177,11z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9bfd2da6cb29:0x239d635520a33914!8m2!3d4.7109886!4d-74.072092!16zL20vMDFkenlj?entry=ttu&g_ep=EgoyMDI0MDkwMy4wIKXMDSoASAFQAw%3D%3D"
                 },
                 "profiles": [
                         {
                                 "network": "Email",
                                 "mail": "carlosscripto@gmail.com",
                                 "username": "Cxrlos",
-                                "url": "https://twitter.com/john"
+                                "url": "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJqTfVQdqKZvpmlkGrVGGrPlpxLmzltCKDNhtbRMSxFMrHpFDsLwtFZhTQCXZjlMZLqCcwL",
+                                "icon": "CiMail"
                         },
                         {
                                 "network": "Whatsapp",
                                 "username": "Carlos Marquina",
-                                "url": "https://twitter.com/john"
+                                "url": "https://api.whatsapp.com/send/?phone=573192947220&text=Hola Carlos, vi tu CV y me gustaría contactarte ✌🏻️",
+                                "icon": "FaWhatsapp"
                         },
                         {
                                 "network": "Github",
                                 "username": "Carlos Marquina",
-                                "url": "https://twitter.com/john"
+                                "url": "https://github.com/immordecai97",
+                                "icon": "FaGithub"
                         },
                         {
                                 "network": "LinkedIn",
                                 "username": "Carlos Marquina",
-                                "url": "https://twitter.com/john"
-                        },
-                        {
-                                "network": "Twitter",
-                                "username": "john",
-                                "url": "https://twitter.com/john"
+                                "url": "https://www.linkedin.com/in/carlos-marquina-4b84922a1/",
+                                "icon": "FaLinkedin"
                         }
                 ]
         },
@@ -51,23 +52,30 @@
                         "url": "https://company.com",
                         "startDate": "2013-01-01",
                         "endDate": "2014-01-01",
-                        "summary": "Desarrollando una aplicación para la gestión de inventario, que maneja el ingreso, egreso y despacho de productos manufacturados desde el almacén de la empresa hacia sus sucursales",
-                        "highlights": [
-                                "Started the company"
-                        ],
+                        "summary": "Desarrollando una aplicación para la gestión de inventario, que maneja el ingreso, egreso y despacho de productos manufacturados desde el almacén de la empresa hacia sus sucursales. WMS (Warehouse Management System)",
                         "modality": "Remoto"
                 }
-               
         ],
         "education": [
                 {
-                        "institution": "Da Vinci Escuela Multimedial",
-                        "url": "https://davinci.edu.ar/",
+                        "institution": "Universidad Da Vinci Escuela Multimedial",
+                        "url": "https://davinci.edu.ar/carreras/desarrollo-web-y-mobile",
                         "area": "Diseño y programación web",
                         "studyType": "Bachelor",
                         "startDate": "2011-01-01",
                         "endDate": "2013-01-01",
                         "score": "4.0",
+                        "courses": [
+                                "DB1101 - Basic SQL"
+                        ]
+                },
+                {
+                        "institution": "Platzi: La escuela de tecnología de latinoamérica",
+                        "url": "https://platzi.com/",
+                        "area": "Escuela de Desarrollo Web con JavaScript",
+                        "studyType": "Bootcamp",
+                        "startDate": "2024-01-05",
+                        "endDate": "",
                         "courses": [
                                 "DB1101 - Basic SQL"
                         ]
@@ -80,6 +88,17 @@
                         "issuer": "Company",
                         "url": "https://certificate.com"
                 }
+        ],
+        "stack": [
+                "JavaScript",
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "API REST",
+                "Git",
+                "Github",
+                "TailwindCSS"
         ],
         "skills": [
                 {
@@ -150,12 +169,17 @@
                         "name": "Github",
                         "level": "Junior"
                 }
-                
         ],
         "languages": [
                 {
-                        "language": "English",
-                        "fluency": "Native speaker"
+                        "language": "Inglés",
+                        "fluency": "Básico",
+                        "level": "B1"
+                },
+                {
+                        "language": "Español",
+                        "fluency": "Nativo",
+                        "level": "C2"
                 }
         ],
         "projects": [

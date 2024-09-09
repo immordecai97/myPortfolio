@@ -10,14 +10,22 @@ export function ModalProvider({ children }) {
         // State to show profile picture modal
         const [profilePictureModal, setProfilePictureModal] = useState(false);
 
-        /**Functio to just close modal */
+        // State to show form to contact me modal
+        const [formToContactMeModal, setFormToContactMeModal] = useState(false);
+
+        /**Function to just close modal */
         const closeModal = () => {
                 setToggleModal(false);
+                setFormToContactMeModal(false);
                 setProfilePictureModal(false);
         }
 
-        const openPictureModal = () => {
+        const togglePictureModal = () => {
                 setProfilePictureModal(!profilePictureModal);
+                setToggleModal(!toggleModal);
+        }
+        const toggleFormEmailModal = () => {
+                setFormToContactMeModal(!formToContactMeModal);
                 setToggleModal(!toggleModal);
         }
 
@@ -25,8 +33,10 @@ export function ModalProvider({ children }) {
                 <ModalContext.Provider value={{
                         toggleModal,
                         closeModal,
+                        formToContactMeModal,
+                        toggleFormEmailModal, // !-> revisar
                         profilePictureModal,
-                        openPictureModal
+                        togglePictureModal
                 }}>
                         {children}
                 </ModalContext.Provider>
